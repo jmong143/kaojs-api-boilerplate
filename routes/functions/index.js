@@ -1,7 +1,7 @@
 const getIndex = async (ctx, next) => {
     ctx.type = 'json'
     ctx.body = {
-        message: '11Birds home page'
+        message: 'GET /'
     }
 }
 
