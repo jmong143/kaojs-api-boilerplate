@@ -14,7 +14,8 @@
     "koa-bodyparser": "^4.2.1",
     "koa-ejs": "^4.1.2",
     "koa-json": "^2.0.2",
-    "koa-router": "^7.4.0"
+    "koa-router": "^7.4.0",
+    "koa-trie-router": "^2.1.6"
   },
   "devDependencies": {
     "nodemon": "^1.18.4"
