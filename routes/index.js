@@ -10,5 +10,4 @@ router.post('/', createIndex);
 router.put('/:id', updateIndex);
 router.delete('/:id', deleteIndex);
 
-
 module.exports = router.middleware()
