@@ -3,6 +3,8 @@
 const Router = require('koa-trie-router')
 const router = new Router()
 
+
+
 const { fetchIndex, createIndex, updateIndex, deleteIndex } = require('./functions/index');
 
 router.get('/', fetchIndex);
